@@ -1,3 +1,8 @@
+#include <iostream>
+
+void User_Input(int& variable1, int& variable2);
+int Add_Numbers(int variable1, int variable2);
+
 int main(void)
 {
 	//initialize variables
