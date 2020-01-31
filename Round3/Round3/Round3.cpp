@@ -23,3 +23,18 @@ int Subtract_Numbers(int variable1, int variable2)
 
 	return (variable1 - variable2);
 }
+
+void User_Input(int& variable1, int& variable2)
+{
+	/*Ask for user input*/
+
+	//ask for value of variable one
+	std::cout << "The value of variable one" << std::endl;
+	//set value of variable one
+	std::cin >> variable1;
+
+	//ask for value of variable two
+	std::cout << "The value of variable two" << std::endl;
+	//set value of variable two
+	std::cin >> variable2;
+}
