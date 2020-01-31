@@ -45,3 +45,10 @@ int Add_Numbers(int variable1, int variable2)
 
 	return (variable1 + variable2);
 }
+
+int Multiply_Numbers(int variable1, int variable2)
+{
+	/*Add the two variables together*/
+
+	return (variable1 * variable2);
+}
