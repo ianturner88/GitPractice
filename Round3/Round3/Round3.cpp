@@ -1,6 +1,7 @@
 #include <iostream>
 
 void User_Input(int& variable1, int& variable2);
+
 int Add_Numbers(int variable1, int variable2);
 int Multiply_Numbers(int variable1, int variable2);
 int Subtract_Numbers(int variable1, int variable2);
@@ -15,6 +16,7 @@ int main(void)
 
 	std::cout << "The resulting sum is: " << Add_Numbers(variable1, variable2) << std::endl;
 	std::cout << "The resulting sum is: " << Subtract_Numbers(variable1, variable2) << std::endl;
+	std::cout << "The resulting sum is: " << Multiply_Numbers(variable1, variable2) << std::endl;
 }
 
 int Subtract_Numbers(int variable1, int variable2)
