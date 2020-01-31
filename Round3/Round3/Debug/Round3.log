@@ -1,0 +1,5 @@
+﻿  Round3.cpp
+Round3.obj : error LNK2019: unresolved external symbol "void __cdecl User_Input(int &,int &)" (?User_Input@@YAXAAH0@Z) referenced in function _main
+Round3.obj : error LNK2019: unresolved external symbol "int __cdecl Add_Numbers(int,int)" (?Add_Numbers@@YAHHH@Z) referenced in function _main
+Round3.obj : error LNK2019: unresolved external symbol "int __cdecl Subtract_Numbers(int,int)" (?Subtract_Numbers@@YAHHH@Z) referenced in function _main
+C:\Users\Ian\Desktop\Courses\GitPractice\Round3\Debug\Round3.exe : fatal error LNK1120: 3 unresolved externals
