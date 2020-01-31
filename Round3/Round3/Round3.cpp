@@ -16,3 +16,10 @@ int main(void)
 	std::cout << "The resulting sum is: " << Add_Numbers(variable1, variable2) << std::endl;
 	std::cout << "The resulting sum is: " << Subtract_Numbers(variable1, variable2) << std::endl;
 }
+
+int Multiply_Numbers(int variable1, int variable2)
+{
+	/*Add the two variables together*/
+
+	return (variable1 * variable2);
+}
