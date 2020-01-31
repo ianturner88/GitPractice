@@ -38,3 +38,10 @@ void User_Input(int& variable1, int& variable2)
 	//set value of variable two
 	std::cin >> variable2;
 }
+
+int Add_Numbers(int variable1, int variable2)
+{
+	/*Add the two variables together*/
+
+	return (variable1 + variable2);
+}
